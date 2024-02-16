@@ -6,3 +6,7 @@ def index(request):
     return render(request, 'store/index.html', {
         "products" : products
     })
+
+
+def about(request):
+    return render(request, 'store/about.html')
